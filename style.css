@@ -1,0 +1,33 @@
+body{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 50px;
+    min-width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: scale 0.5s, box-shadow 0.5s;
+}
+
+.box:hover{
+    scale: 1.05;
+    box-shadow: 5px 5px;
+}
